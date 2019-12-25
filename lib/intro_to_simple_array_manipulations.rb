@@ -11,9 +11,17 @@ def using_pop(array)
 end
 
 def pop_with_args(array)
+  # Removes and returns the last two elements of the array
   array.pop(2)
 end
 
 def using_shift(array)
   array.shift
 end
+
+def shift_with_args(array)
+  # Removes and returns the first two elements of the array
+  array.shift(2)
+end
+
+def using_concat(array,)
